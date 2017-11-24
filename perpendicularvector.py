@@ -19,5 +19,5 @@ dp = dot(a,b)
 print ("dot product of a and b is ",dp)
 if(dp==0):
     print("a and b are perpendicular")
-elif(dp>0 or dp<0):
-    print ("a and b are not perpendicular")
+elif(dp==1 or dp == -1):
+    print ("a and b are parallel")
